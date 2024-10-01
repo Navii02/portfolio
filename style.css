@@ -1,0 +1,102 @@
+/* Global Styling */
+body, html {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+header {
+  background-image: url('./Images/bg.avif');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+#about{
+  height: 50vh;
+}
+.header-section h1 {
+  font-size: 3rem;
+}
+
+.header-section p {
+  font-size: 1.5rem;
+}
+
+@media (max-width: 768px) {
+  .header-section h1 {
+    font-size: 2.5rem;
+  }
+
+  .header-section p {
+    font-size: 1.2rem;
+  }
+}
+
+/* Skills Section */
+.typesofskills {
+  margin: 2rem 0;
+  position: relative;
+}
+
+.skill-label {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.percentage-bar {
+  height: 10px;
+  border-radius: 3px;
+  margin-top: 5px;
+  position: relative;
+}
+
+.total-bar {
+  width: 100%;
+  background-color: #ddd;
+  height: 10px;
+  position: absolute;
+  border-radius: 3px;
+}
+
+.html-bar {
+  background-color: rgb(0, 255, 21);
+  width: 95%;
+}
+
+.css-bar {
+  background-color: rgb(0, 255, 21);
+  width: 88%;
+}
+
+.js-bar {
+  background-color: rgb(0, 255, 21);
+  width: 89%;
+}
+
+.react-bar {
+  background-color:  rgb(0, 255, 21);
+  width: 85%;
+}
+
+.node-bar {
+  background-color: rgb(0, 255, 21);
+  width: 85%;
+}
+
+.mongodb-bar {
+  background-color: rgb(0, 255, 21);
+  width: 80%;
+}
+
+footer {
+  background-color: #222;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
